@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color : #2060E3;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.text-title-color{
+    color:  var(--primary-color);
+}
+
+.text-our::after {
+    margin: 0 auto;
+    content: '';
+    display: block;
+    width: 8%;
+    text-align: center;
+    margin-top: 10px;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+.contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding : 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+/* services */
+.main-footer {
+    padding: 10px 20px;
+    text-align: left;
+    background: rgb(103,195,243);
+    background: linear-gradient(180deg, rgba(103,195,243,1) 0%, rgba(90,152,242,1) 100%);
+}
+.main-footer ul li a{
+    color : #fff;
+    text-decoration: none;
+}
+.copyright {
+    background-color: transparent;
+}

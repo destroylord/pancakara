@@ -1,0 +1,6 @@
+/* Buttons */
+
+.df-btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
